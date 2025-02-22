@@ -1,0 +1,677 @@
+.epsi_admin_wrap #epsi-tabs .panel-container .button {
+  padding: 10px 20px;
+  height: inherit;
+  margin: 20px 0 0 0; }
+  .epsi_admin_wrap #epsi-tabs .panel-container .button:hover {
+    cursor: pointer;
+    color: #ffffff; }
+  .epsi_admin_wrap #epsi-tabs .panel-container .button:active {
+    background-color: transparent;
+    border: none; }
+.epsi_admin_wrap #epsi-tabs .panel-container section {
+  float: left;
+  width: 98%;
+  padding: 1%; }
+
+.hide {
+  display: none; }
+
+#epsi-ajax-in-progress {
+  display: none; }
+
+.epsi-ajax.waiting {
+  display: none; }
+
+.epsi-top-heading + .wrap {
+  background-color: #fff;
+  margin: -17px 20px 20px 0;
+  padding: 0px 20px 20px 20px;
+  min-height: 600px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.06); }
+  .epsi-top-heading + .wrap:before:before, .epsi-top-heading + .wrap:before:after {
+    content: "";
+    display: table; }
+  .epsi-top-heading + .wrap:before:after {
+    clear: both; }
+  .epsi-top-heading + .wrap:after:before, .epsi-top-heading + .wrap:after:after {
+    content: "";
+    display: table; }
+  .epsi-top-heading + .wrap:after:after {
+    clear: both; }
+  .epsi-top-heading + .wrap .postbox h3 {
+    background-color: rgba(232, 236, 235, 0.42); }
+  .epsi-top-heading + .wrap .hidden {
+    display: none; }
+
+.epsi-info-list span {
+  display: inline-block; }
+  .epsi-info-list span:nth-child(1) {
+    width: 200px; }
+.epsi-info-list li {
+  padding-left: 20px; }
+
+.epsi-info-icon {
+  padding: 0 0 0 0;
+  float: left; }
+  @media only screen and (max-width: 650px) {
+    .epsi-info-icon {
+      margin: 10px 0;
+      float: none; } }
+  .epsi-info-icon p {
+    padding: 0;
+    margin: 0 0 0 7px;
+    width: 500px;
+    color: #939AAA;
+    font-size: 14px;
+    line-height: 24px;
+    box-sizing: border-box;
+    float: left; }
+    @media only screen and (max-width: 650px) {
+      .epsi-info-icon p {
+        width: 100%;
+        background-color: #FDFDFD;
+        border: solid 1px #ddd;
+        padding: 9px;
+        float: left;
+        margin: 0; } }
+  .epsi-info-icon:before {
+    color: #FFF;
+    width: 16px;
+    line-height: 16px;
+    height: 16px;
+    background-color: rgba(147, 154, 170, 0.4);
+    display: block;
+    float: left;
+    text-align: center;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    content: 'i';
+    font-weight: bold;
+    cursor: pointer;
+    margin: 4px; }
+
+.epsi_row {
+  float: left;
+  width: 100%; }
+
+.epsi_col {
+  float: left;
+  box-sizing: border-box;
+  margin-right: 1%; }
+  .epsi_col:last-child {
+    margin-right: 0; }
+
+.epsi_col_10 {
+  width: 10%; }
+
+.epsi_col_20 {
+  width: 20%; }
+
+.epsi_col_30 {
+  width: 30%; }
+
+.epsi_col_40 {
+  width: 40%; }
+
+.epsi_col_50 {
+  width: 50%; }
+
+.epsi_col_60 {
+  width: 60%; }
+
+.epsi_col_70 {
+  width: 70%; }
+
+.epsi_col_80 {
+  width: 80%; }
+
+.epsi_col_90 {
+  width: 90%; }
+
+.epsi_col_100 {
+  width: 100%; }
+
+.epsi_admin_wrap {
+  /* Plugin Settings */ }
+  .epsi_admin_wrap label {
+    float: left;
+    width: 200px;
+    font-size: 1em;
+    font-weight: 400;
+    padding-right: 30px; }
+    @media only screen and (max-width: 700px) {
+      .epsi_admin_wrap label {
+        width: 40%; } }
+    @media only screen and (max-width: 480px) {
+      .epsi_admin_wrap label {
+        width: 100%; } }
+  .epsi_admin_wrap select {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #939AAA;
+    float: left;
+    margin-right: 5px;
+    background-color: #F3F5F8; }
+  .epsi_admin_wrap input[type=text] {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #939AAA;
+    margin-right: 5px;
+    background-color: #F3F5F8; }
+    @media only screen and (max-width: 650px) {
+      .epsi_admin_wrap input[type=text] {
+        width: 40%; } }
+    @media only screen and (max-width: 480px) {
+      .epsi_admin_wrap input[type=text] {
+        width: 88%; } }
+  .epsi_admin_wrap input {
+    float: left; }
+  .epsi_admin_wrap input[type=checkbox] {
+    margin-top: 1px;
+    margin-right: 8px; }
+  .epsi_admin_wrap input[type="submit"] {
+    border: none;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    width: 202px; }
+    .epsi_admin_wrap input[type="submit"]:hover {
+      cursor: pointer; }
+    .epsi_admin_wrap input[type="submit"]:focus {
+      outline: 0; }
+  .epsi_admin_wrap .primary-btn {
+    background-color: #2EA3F2 !important;
+    color: #fff;
+    border-radius: 5px;
+    border: none; }
+    .epsi_admin_wrap .primary-btn:hover {
+      background-color: #5eb8f5 !important;
+      cursor: pointer; }
+  .epsi_admin_wrap .danger-btn {
+    background-color: #d9534f; }
+    .epsi_admin_wrap .danger-btn:hover {
+      background-color: #e27c79; }
+  .epsi_admin_wrap .archive-btn:hover {
+    background-color: #d9534f; }
+  .epsi_admin_wrap button {
+    padding: 10px 20px; }
+  .epsi_admin_wrap .epsi-checkbox-columns h4 {
+    float: left; }
+  .epsi_admin_wrap .epsi-checkbox-columns .epsi-info-icon {
+    margin: 1.1em 1em; }
+  .epsi_admin_wrap .epsi-checkbox-columns ul {
+    width: 100%;
+    float: left;
+    padding-left: 0px; }
+  .epsi_admin_wrap .epsi-checkbox-columns li {
+    float: left; }
+  .epsi_admin_wrap .epsi-radio-buttons-vertical h4 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    font-size: 14px;
+    font-weight: normal; }
+  .epsi_admin_wrap .epsi-radio-buttons-vertical ul {
+    float: left; }
+  .epsi_admin_wrap .epsi-radio-buttons-vertical input[type=radio] {
+    width: 25px;
+    height: 25px;
+    border-color: #F3F5F8;
+    background-color: #F3F5F8;
+    box-shadow: none; }
+  .epsi_admin_wrap .epsi-radio-buttons-vertical input[type=radio]:checked:before {
+    width: 15px;
+    height: 15px;
+    background-color: #86d700;
+    border: none; }
+  .epsi_admin_wrap .epsi-radio-buttons-vertical label {
+    line-height: 19px;
+    margin-left: 3px;
+    width: inherit;
+    margin-right: 7px; }
+  .epsi_admin_wrap .epsi-radio-buttons-vertical .epsi-info-icon {
+    padding: 1px 0 0 0 !important; }
+    .epsi_admin_wrap .epsi-radio-buttons-vertical .epsi-info-icon p {
+      top: -1px; }
+  .epsi_admin_wrap .epsi-radio-buttons-horizontal {
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 20px 0; }
+    .epsi_admin_wrap .epsi-radio-buttons-horizontal h4 {
+      float: left;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      font-size: 14px;
+      font-weight: normal; }
+    .epsi_admin_wrap .epsi-radio-buttons-horizontal ul {
+      float: left; }
+      .epsi_admin_wrap .epsi-radio-buttons-horizontal ul li {
+        float: left;
+        margin: 0px 0;
+        clear: none !important; }
+        @media only screen and (max-width: 480px) {
+          .epsi_admin_wrap .epsi-radio-buttons-horizontal ul li {
+            margin: 10px 0;
+            border: solid 1px #EAEAEA;
+            border-radius: 15px;
+            width: 100%;
+            height: inherit !important;
+            padding: 10px;
+            box-sizing: border-box; } }
+    .epsi_admin_wrap .epsi-radio-buttons-horizontal input[type=radio] {
+      width: 25px;
+      height: 25px;
+      border-color: #F3F5F8;
+      background-color: #F3F5F8;
+      box-shadow: none;
+      float: left;
+      display: block; }
+    .epsi_admin_wrap .epsi-radio-buttons-horizontal input[type=radio]:checked:before {
+      width: 15px;
+      height: 15px;
+      background-color: #86d700;
+      border: none; }
+      @media only screen and (max-width: 480px) {
+        .epsi_admin_wrap .epsi-radio-buttons-horizontal input[type=radio]:checked:before {
+          margin: 4px; } }
+    .epsi_admin_wrap .epsi-radio-buttons-horizontal label {
+      line-height: 19px;
+      width: initial;
+      margin: 0 0 0 0;
+      float: left;
+      display: block;
+      padding: 0 15px; }
+    .epsi_admin_wrap .epsi-radio-buttons-horizontal .epsi-info-icon {
+      padding: 0 0 0 0 !important;
+      margin: -1px 0 0 0;
+      display: inline-block; }
+      .epsi_admin_wrap .epsi-radio-buttons-horizontal .epsi-info-icon p {
+        top: 21px !important;
+        left: 0px !important;
+        text-align: left !important; }
+  @media only screen and (max-width: 700px) {
+    .epsi_admin_wrap .epsi-text-fields-horizontal {
+      float: left;
+      border-top: dashed 1px #ddd;
+      border-bottom: dashed 1px #ddd;
+      margin: 10px 0;
+      padding: 10px 0; } }
+  .epsi_admin_wrap .epsi-text-fields-horizontal ul {
+    float: left; }
+    @media only screen and (max-width: 700px) {
+      .epsi_admin_wrap .epsi-text-fields-horizontal ul {
+        width: 100% !important; } }
+  .epsi_admin_wrap .epsi-text-fields-horizontal li {
+    display: inline-block !important;
+    height: initial !important; }
+    @media only screen and (max-width: 700px) {
+      .epsi_admin_wrap .epsi-text-fields-horizontal li {
+        width: 100% !important; } }
+    @media only screen and (max-width: 480px) {
+      .epsi_admin_wrap .epsi-text-fields-horizontal li {
+        margin-bottom: 20px !important; } }
+    .epsi_admin_wrap .epsi-text-fields-horizontal li:nth-child(1) {
+      margin-right: 60px; }
+      @media only screen and (max-width: 650px) {
+        .epsi_admin_wrap .epsi-text-fields-horizontal li:nth-child(1) {
+          margin-right: 0; } }
+  .epsi_admin_wrap .epsi-text-fields-horizontal .epsi-common-label {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px; }
+    @media only screen and (max-width: 650px) {
+      .epsi_admin_wrap .epsi-text-fields-horizontal .epsi-common-label {
+        font-weight: bold; } }
+  .epsi_admin_wrap .epsi-text-fields-horizontal .epsi-label {
+    width: inherit;
+    margin-right: 15px; }
+    @media only screen and (max-width: 700px) {
+      .epsi_admin_wrap .epsi-text-fields-horizontal .epsi-label {
+        width: 40%;
+        margin-right: 0; } }
+    @media only screen and (max-width: 480px) {
+      .epsi_admin_wrap .epsi-text-fields-horizontal .epsi-label {
+        width: 100%; } }
+  @media only screen and (max-width: 650px) {
+    .epsi_admin_wrap .epsi-text-fields-horizontal input[type=text] {
+      width: 40%;
+      margin-right: 0; } }
+  @media only screen and (max-width: 480px) {
+    .epsi_admin_wrap .epsi-text-fields-horizontal input[type=text] {
+      width: 100%; } }
+  .epsi_admin_wrap .epsi-sml {
+    width: 60px; }
+    @media only screen and (max-width: 650px) {
+      .epsi_admin_wrap .epsi-sml {
+        width: 40%; } }
+    @media only screen and (max-width: 480px) {
+      .epsi_admin_wrap .epsi-sml {
+        width: 100%; } }
+  .epsi_admin_wrap .epsi-med {
+    width: 140px; }
+    @media only screen and (max-width: 650px) {
+      .epsi_admin_wrap .epsi-med {
+        width: 40%; } }
+    @media only screen and (max-width: 480px) {
+      .epsi_admin_wrap .epsi-med {
+        width: 100%; } }
+  .epsi_admin_wrap .epsi-lrg {
+    width: 350px; }
+    @media only screen and (max-width: 650px) {
+      .epsi_admin_wrap .epsi-lrg {
+        width: 40%; } }
+    @media only screen and (max-width: 480px) {
+      .epsi_admin_wrap .epsi-lrg {
+        width: 100%; } }
+  .epsi_admin_wrap .wp-picker-container {
+    float: left;
+    display: block;
+    margin-top: 4px; }
+  .epsi_admin_wrap .wp-picker-active {
+    margin-bottom: 30px; }
+  .epsi_admin_wrap .epsi-deactivate-btn {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    margin: 0 0 -9px 0; }
+  .epsi_admin_wrap .epsi-deactivate-btn:hover {
+    background-color: #c9302c;
+    border-color: #ac2925; }
+  .epsi_admin_wrap .epsi-activate-btn {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    margin: 0 0 -9px 0; }
+  .epsi_admin_wrap .epsi-activate-btn:hover {
+    background-color: #449d44;
+    border-color: #398439;
+    cursor: pointer; }
+  .epsi_admin_wrap .epsi-active-text {
+    color: #008000;
+    margin-left: 7px; }
+  .epsi_admin_wrap .epsi-inactive-text {
+    color: #ff0000;
+    margin-left: 7px; }
+  .epsi_admin_wrap .epsi-save-settings {
+    margin-bottom: 0;
+    padding: 0 0 0 0;
+    width: initial; }
+    .epsi_admin_wrap .epsi-save-settings .submit {
+      float: left;
+      margin: 0 10px 0 0;
+      padding: 0; }
+
+#epsi-top-notice-message {
+  margin: 10px 20px 0 2px; }
+  #epsi-top-notice-message .epsi_notification {
+    width: 100%; }
+    #epsi-top-notice-message .epsi_notification span {
+      display: block; }
+
+.epsi_notification {
+  display: block;
+  font-size: 16px;
+  position: relative;
+  float: left; }
+  .epsi_notification span {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px; }
+  .epsi_notification .general {
+    background-color: #e5e5e5;
+    border-color: #cccccc; }
+  .epsi_notification .success {
+    background-color: #dff0d8;
+    border-color: #c1e2b3;
+    color: #529138; }
+  .epsi_notification .warning {
+    background-color: #fcf8e3;
+    border-color: #f7ecb5;
+    color: #caad16; }
+  .epsi_notification .danger {
+    background-color: #f2dede;
+    border-color: #e4b9b9;
+    color: #963b3b; }
+  .epsi_notification .primary {
+    background-color: #d9edf7;
+    border-color: #afd9ee;
+    color: #247fad; }
+  .epsi_notification h4 {
+    margin: 0; }
+  .epsi_notification p {
+    margin: 0; }
+  .epsi_notification ol {
+    margin: 10px 20px; }
+
+#epsi-dialog-info .epsi_notification span {
+  width: 100%;
+  box-sizing: border-box; }
+
+.epsi_admin_wrap .form-option-tabs {
+  float: left;
+  width: 100%;
+  background-color: #ffffff;
+  margin: 20px 0;
+  font-size: 14px;
+  border: solid 1px #ddd; }
+  .epsi_admin_wrap .form-option-tabs .main-nav {
+    padding: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    border: none;
+    float: left; }
+    .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs {
+      padding: 0;
+      margin: 0;
+      background-color: #E5E5E5;
+      float: left;
+      width: 100%; }
+      .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs li {
+        display: block;
+        float: left;
+        width: 16%;
+        min-width: 206px;
+        padding: 10px 0;
+        text-align: center;
+        margin: 0; }
+        @media only screen and (max-width: 800px) {
+          .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs li {
+            width: 100%; } }
+        .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs li h2 {
+          font-size: 1.3em;
+          color: #BFBDBD; }
+        .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs li p {
+          font-size: .9em;
+          color: #BFBDBD; }
+        .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs li:hover {
+          cursor: pointer;
+          background-color: #ddd;
+          color: #fff; }
+          .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs li:hover h2 {
+            color: #fff; }
+          .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs li:hover p {
+            color: #fff; }
+      .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs .active {
+        background-color: #ffffff; }
+        .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs .active:hover {
+          cursor: auto;
+          background-color: #ffffff; }
+          .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs .active:hover h2 {
+            color: #00BFFF; }
+          .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs .active:hover p {
+            color: #00BFFF; }
+        .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs .active h2 {
+          color: #00BFFF; }
+        .epsi_admin_wrap .form-option-tabs .main-nav .nav-tabs .active p {
+          color: #00BFFF; }
+  .epsi_admin_wrap .form-option-tabs .panel-container {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 300px; }
+    .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel {
+      display: none;
+      padding: 20px;
+      width: 100%;
+      float: left;
+      box-sizing: border-box; }
+      .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .epsi_plugin_ad .primary-btn {
+        margin-top: 51px;
+        display: block;
+        float: left; }
+      .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .epsi-feature:nth-child(odd) .top_heading {
+        background-color: #B7A2D5; }
+      .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .left_column {
+        float: left;
+        width: 68%;
+        padding: 1%;
+        box-sizing: border-box; }
+        .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .left_column .feature {
+          float: left;
+          width: 33%;
+          padding: 1%; }
+      .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .right_column {
+        float: right;
+        width: 28%;
+        padding: 1%;
+        box-sizing: border-box; }
+      .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel table td {
+        border: solid 1px #ddd;
+        padding: 11px; }
+        @media only screen and (max-width: 500px) {
+          .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel table td {
+            padding: 0; } }
+      .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options {
+        padding-top: 0;
+        margin-top: -25px; }
+        .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options li {
+          margin-bottom: 10px;
+          list-style-type: none;
+          vertical-align: top; }
+          @media only screen and (max-width: 650px) {
+            .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options li {
+              width: 100%;
+              height: 55px; } }
+          .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options li:before, .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options li:after {
+            content: "";
+            display: table; }
+          .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options li:after {
+            clear: both; }
+        .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options .epsi-config-item {
+          padding-left: 20px;
+          margin-bottom: 20px; }
+          @media only screen and (max-width: 700px) {
+            .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options .epsi-config-item {
+              padding-left: 0; } }
+        .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options .option-heading {
+          padding-top: 1px;
+          border-bottom: solid 1px #BABCBD;
+          width: 900px;
+          color: #479AE2;
+          padding-bottom: 0;
+          margin-bottom: 30px; }
+          @media only screen and (max-width: 1200px) {
+            .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options .option-heading {
+              width: 90%; } }
+          @media only screen and (max-width: 480px) {
+            .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options .option-heading {
+              display: block;
+              float: left; } }
+          .epsi_admin_wrap .form-option-tabs .panel-container .tab-panel .form-options .option-heading h4 {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 10px 0; }
+    .epsi_admin_wrap .form-option-tabs .panel-container .active {
+      display: block; }
+
+.epsi-top-heading {
+  background-color: #E5E5E5;
+  color: #fff;
+  margin: 39px 20px 16px 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative; }
+  .epsi-top-heading:after:before, .epsi-top-heading:after:after {
+    content: "";
+    display: table; }
+  .epsi-top-heading:after:after {
+    clear: both; }
+  .epsi-top-heading .title {
+    margin-right: 21px;
+    float: left;
+    display: block;
+    height: 40px;
+    padding: 20px 20px 0;
+    vertical-align: middle;
+    text-align: center; }
+  .epsi-top-heading .tab-navigation {
+    float: left;
+    display: block;
+    margin: 0;
+    margin-bottom: -3px; }
+    @media only screen and (max-width: 700px) {
+      .epsi-top-heading .tab-navigation {
+        width: 100%; } }
+    .epsi-top-heading .tab-navigation > li {
+      display: inline-block;
+      margin-bottom: 0; }
+      @media only screen and (max-width: 700px) {
+        .epsi-top-heading .tab-navigation > li {
+          width: 100%; } }
+      @media only screen and (max-width: 1057px) {
+        .epsi-top-heading .tab-navigation > li > .nav-tab {
+          display: none; } }
+    .epsi-top-heading .tab-navigation li:nth-child(2) {
+      margin-right: -4px !important; }
+  .epsi-top-heading .nav-tab {
+    border: none;
+    text-align: center;
+    color: #BFBDBD;
+    background-color: #E5E5E5;
+    margin-left: 0;
+    width: 160px;
+    white-space: normal; }
+    @media only screen and (max-width: 700px) {
+      .epsi-top-heading .nav-tab {
+        width: 100%;
+        box-sizing: border-box; } }
+    .epsi-top-heading .nav-tab:hover {
+      cursor: pointer;
+      background-color: #ddd;
+      color: #fff; }
+  .epsi-top-heading .nav-tab-active {
+    background-color: #fff;
+    box-shadow: none;
+    color: #00BFFF;
+    border: none !important;
+    display: inline-block !important; }
+    .epsi-top-heading .nav-tab-active:hover {
+      cursor: auto;
+      background-color: #ffffff;
+      color: #00BFFF; }
